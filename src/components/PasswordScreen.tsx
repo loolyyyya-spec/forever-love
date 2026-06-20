@@ -14,11 +14,11 @@ const PasswordScreen = ({
   const [password, setPassword] = useState("");
   const [showHint, setShowHint] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  const correctPassword = "ILOVEYOU";
+  const correctPassword = "05112025";
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password.toUpperCase() === correctPassword) {
+    if (password === correctPassword) {
       onCorrectPassword();
     } else {
       setShowHint(true);
