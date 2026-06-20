@@ -14,7 +14,7 @@ const PasswordScreen = ({
   const [password, setPassword] = useState("");
   const [showHint, setShowHint] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  const correctPassword = "ILOVEYOU";
+  const correctPassword = "5112025";
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
